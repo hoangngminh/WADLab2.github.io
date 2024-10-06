@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li> 
+                <li><a href="Portfolio.html">PORTFOLIO</a></li> 
+                <li><a href="Activities.html">ACTIVITIES</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-contact">
+        <section>
+            <div class="contact">
+                <ol class="contact-information">
+                    <li class="contact-me">Address: <span class="information">1/2 Do Son, Ward 4, Tan Binh District, Ho Chi Minh city</span></li>
+                    <li class="contact-me">Phone: <span class="information">0394558366</span></li> 
+                    <li class="contact-me">Email: <span class="information">ITITWE21098@student.hcmiu.edu.vn</span></li>
+                </ol>
+
+                <form action="contact.php" id="message-us" method="post">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100028322559624">
+                <img src="image/facebook.svg" alt="Facebook" width="40px" height="40px">
+            </a></li>
+            <li><a href="https://www.instagram.com/ngmhoang.92?igsh=ZG1tajQ1ODY5d2Rj&utm_source=qr">
+                <img src="image/instagram.svg" alt="Instagram" width="40px" height="40px">
+            </a></li> 
+            <li><a href="https://github.com/hoangngminh/hoangnguyen">
+                <img src="image/github.svg" alt="Github" width="40px" height="40px">
+            </a></li> 
+            <li><a href="mailto:ngmhoang92@gmail.com">
+                <img src="image/gmail.svg" alt="Email" width="40px" height="40px">
+            </a></li>
+            <li class="copyright"><p>&copy; 2003</p></li>
+        </ul>
+    </footer>
+</body>
+</html>
